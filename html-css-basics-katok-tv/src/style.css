@@ -1,0 +1,114 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+}
+
+.pics {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 900px;
+}
+
+h1, h2, h3{
+    width: 900px;
+    text-align: center;
+}
+
+p { 
+    width: 900px;
+    text-indent: 30px;
+}
+
+table {
+    border: 1px solid grey;
+    max-width: 70%;
+    width: 70%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+
+th {
+    border: 1px solid grey;
+    font-weight: bold;
+    color: #729B39;
+    border-bottom: 2px solid #729B39;
+    padding: 10px 8px;
+}
+
+caption {
+    padding: 10px 8px;
+    font-weight: bold;
+}
+
+td {
+    border: 1px solid grey;
+    padding: 10px 8px;
+}
+
+tr:hover td {
+    color: #B93B22;
+}
+
+.dog{
+    width: 20%;
+    height: 20%;
+    border: 4px solid #729B39;
+}
+
+.cat{
+    width: 30%;
+    height: 30%;
+}
+
+.quote {
+    text-align: center;
+}
+
+blockquote::before {  
+    content: open-quote;  
+}  
+blockquote::after {  
+    content: close-quote;  
+}
+
+ul > li{
+    list-style-type: none;
+}
+
+ul > li::before {
+    color: red;
+    content: "▪";
+    padding-right: 10px;
+}
+.form {
+    width: 900px;
+}
+legend {
+    margin-top: 20px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+}
+
+input {
+    padding: 10px;
+    border: 0;
+    box-shadow:0 0 15px 4px #0000000f;
+    border-radius:10px;
+    margin: 20px;
+}
+
+button {
+    padding: 10px;
+    border: 0;
+    box-shadow:0 0 15px 4px #0000000f;
+    background-color: #729B39;
+    border-radius: 10px;
+}
+
+.feedback {
+    width: 700px;
+    margin-top: 20px;
+}
